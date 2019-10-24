@@ -1,0 +1,27 @@
+{
+  "name": "@loezy/seekul",
+  "version": "1.1.0",
+  "description": "Get a bit more lazy with sequelize",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Joey de Vries <me@xjoeyv.com>",
+  "license": "MIT",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@types/mysql2": "github:types/mysql2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.28.6",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.21.1"
+  }
+}
