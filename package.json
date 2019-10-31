@@ -1,12 +1,13 @@
 {
   "name": "@loezy/seekul",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Get a bit more lazy with sequelized seekul package.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": ["node", "node-js", "orm", "models", "database-model", "xjoeyv", "loezy", "sequelize"],
   "author": "Joey de Vries <me@xjoeyv.com>",
   "license": "MIT",
