@@ -1,15 +1,16 @@
 {
   "name": "@loezy/seekul",
-  "version": "1.1.0",
-  "description": "Get a bit more lazy with sequelize",
+  "version": "1.1.1",
+  "description": "Get a bit more lazy with sequelized seekul package.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["node", "node-js", "orm", "models", "database-model", "xjoeyv", "loezy", "sequelize"],
   "author": "Joey de Vries <me@xjoeyv.com>",
   "license": "MIT",
+  "homepage": "https://www.wiki.xjoeyv.com/loezy/seekul",
   "prettier": {
     "semi": false,
     "singleQuote": true
